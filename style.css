@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin-top: 150px;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+}
+.header {
+  position: absolute;
+  left: 500px;
+  right: 500px;
+}
+h1 {
+  font-size: 100px;
+  margin-top: 50px;
+  margin-left: 135px;
+  font-size: arial, sans-serif;
+  position: relative;
+  right: 90px;
+}
+.number-1 {
+  color: #4285f4;
+}
+.number-2 {
+  color: #db4437;
+}
+.number-3 {
+  color: #f4b400;
+}
+.number-4 {
+  color: #4285f4;
+}
+.number-5 {
+  color: #0f9d58;
+}
+.number-6 {
+  color: rgb(244, 21, 21);
+}
+.div-1 {
+  position: relative;
+  right: 100px;
+  border: 1px solid black;
+}
+*#search-box {
+  outline: none;
+  padding: 10px;
+  border: none;
+  background-color: #f8f9fa;
+  position: absolute;
+  top: 400px;
+  left: 298px;
+  width: 140%;
+  height: 50px;
+  border-radius: 10px;
+  cursor: default;
+
+  width: 800px;
+}
+
+.footer {
+  position: relative;
+  top: 350px;
+  left: 560px;
+  width: 40%;
+}
+.div-2 {
+  margin-top: 20px;
+}
+.class-2,
+.class-3 {
+  padding: 10px;
+  background-color: #f8f9fa;
+  border: 2px solid #f8f9fa;
+  width: 25%;
+  outline: none;
+}
+.class-2:hover {
+  border: 1px solid rgb(127, 126, 126);
+}
+.class-3:hover {
+  border: 1px solid rgb(127, 126, 126);
+}
+.footer .div-2 .button-2 {
+  margin-left: 10px;
+}
+.div-3 {
+  margin-top: 30px;
+}
+.unorder-list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+.div-3 .unorder-list li a {
+  margin-left: 5px;
+}
+@media only screen and (max-width: 600px) {
+  .class-1 {
+    width: 16%;
+    position: fixed;
+  }
+}
